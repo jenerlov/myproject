@@ -18650,6 +18650,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/josefinenerlov/myproject/Partials/_Collection.cshtml",
+      "TargetPath": "Partials\\_Collection.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josefinenerlov/myproject/Partials/_Footer.cshtml",
+      "TargetPath": "Partials\\_Footer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/josefinenerlov/myproject/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -18675,8 +18685,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/josefinenerlov/myproject/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "/Users/josefinenerlov/myproject/Partials/_ProductItem.cshtml",
+      "TargetPath": "Partials\\_ProductItem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josefinenerlov/myproject/Partials/_Header.cshtml",
+      "TargetPath": "Partials\\_Header.cshtml",
       "FileKind": "mvc"
     }
   ],

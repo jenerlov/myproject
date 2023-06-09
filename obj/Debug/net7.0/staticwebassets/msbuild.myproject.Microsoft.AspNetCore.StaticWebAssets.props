@@ -2,9 +2,9 @@
   <ItemGroup>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>favicon.ico</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -18,9 +18,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\120x113.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/120x113.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -34,9 +34,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1920x300.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/1920x300.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -50,9 +50,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\200x122.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/200x122.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -66,9 +66,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\270x295.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/270x295.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -82,9 +82,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\369x310.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/369x310.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -98,9 +98,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\370x295.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/370x295.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -114,9 +114,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\469x356.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/469x356.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -130,9 +130,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\501x430.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/501x430.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -146,9 +146,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\625x647.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/625x647.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -162,9 +162,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Logo.svg))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>images/Logo.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -178,9 +178,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>js/site.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -192,12 +192,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\MvcMovie.bundle.scp.css))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\myproject.bundle.scp.css))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
-      <RelativePath>MvcMovie.bundle.scp.css</RelativePath>
+      <BasePath>_content/myproject</BasePath>
+      <RelativePath>myproject.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -206,13 +206,13 @@
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\MvcMovie.bundle.scp.css))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\myproject.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\scss\components\_base.scss))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>scss/components/_base.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -226,9 +226,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\scss\components\_footer.scss))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>scss/components/_footer.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -242,9 +242,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\scss\components\_header.scss))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>scss/components/_header.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -258,9 +258,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\scss\core\_fonts.scss))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>scss/core/_fonts.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -274,9 +274,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\scss\style.scss))">
       <SourceType>Package</SourceType>
-      <SourceId>MvcMovie</SourceId>
+      <SourceId>myproject</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MvcMovie</BasePath>
+      <BasePath>_content/myproject</BasePath>
       <RelativePath>scss/style.scss</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
