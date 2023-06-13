@@ -4,34 +4,36 @@ namespace myproject.Services;
 
 public class ShowcaseService
 {
-    private readonly List<ShowcaseModel> _showcases = new()
-    {
+    private readonly List<ShowcaseModel> _showcases = new() 
+    { 
         new ShowcaseModel()
         {
-            Ingress = "Welcome",
-            Title = "Blablabla",
+            Ingress = "WELCOME TO BMERKETO SHOP",
+            Title = "Exclusive Chair gold Collection.",
             ImageUrl = "images/placeholders/625x647.svg",
             // Button = new LinkButtonModel
             // {
-            //     Content = "Buy now",
-            //     Url = "/products"
+            //     Content = "SHOP NOW",
+            //     Url = "/products",
             // }
         },
-                new ShowcaseModel()
+        new ShowcaseModel()
         {
-            Ingress = "Welcome",
-            Title = "Blablabla",
+            Ingress = "BMERKETO THE BEST A PERSON CAN GET",
+            Title = "Now with all new spices",
             ImageUrl = "images/placeholders/625x647.svg",
             // Button = new LinkButtonModel
             // {
-            //     Content = "Buy now",
-            //     Url = "/products"
+            //     Content = "SHOP NOW",
+            //     Url = "/products",
             // }
-        },
+        }
     };
+
 
     public ShowcaseModel GetLatest()
     {
         return _showcases.LastOrDefault()!;
     }
+
 }
