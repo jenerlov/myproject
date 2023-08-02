@@ -1,0 +1,20 @@
+@using myproject.Models.Dtos;
+
+@model Product
+
+<div class="container">
+    <div class="product-details-container">
+    
+        <img class="product-details-img" src="@Model.ImageUrl" alt="A picture of headphones"/>
+        <div class="product-details-wrapper">
+            <div class="product-details-details"> @Model.ProductName</div>
+
+            <div class="product-details-details">@Model.Ingress</div>
+
+            <div class="product-details-details">@Model.Description</div>
+            <div class="product-details-details">Price: @Model.Price SEK</div>
+        
+        </div>
+
+    </div>
+</div>

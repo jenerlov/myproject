@@ -1,0 +1,26 @@
+@model AllProductsViewModel
+
+<section class="collection">
+    <div class="container">
+
+        <h1 class="products-title">@Model.Title</h1>
+
+        <div class="collection-grid">
+            @foreach (var product in Model.AllProducts)
+            {
+                <a asp-action="Index" asp-controller="ProductDetails" asp-route-articleNumber="@product.ArticleNumber" class="collection-item">
+                    <img class="headphones-image" src="@product.ImageUrl" alt="Poster" />
+                    <div class="body">
+                        <div class="title">@product. @product.ProductName</div>
+                        
+                        <div class="info">
+                            <div class="price">@product.Price SEK</div>
+                            <i class="add-cart fa-solid fa-cart-plus"></i>
+                        </div>
+                    </div>
+                </a>
+                
+            }
+        </div>
+    </div>
+</section>

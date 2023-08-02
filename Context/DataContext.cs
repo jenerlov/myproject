@@ -13,8 +13,10 @@ public class DataContext : IdentityDbContext<UserEntity>
 
     public DbSet<AddressEntity> Addresses {get; set;} = null!;
     public DbSet<UserAddressEntity> UserAddresses {get; set;} = null!;
-    // public DbSet<ProductEntity> Products {get; set;}
-    // public DbSet<ContactFormEntity> Messages {get; set;}
+    public DbSet<ProductEntity> Products {get; set;}
+    public DbSet<TagEntity> Tags {get; set;}
+    public DbSet<ProductTagEntity> ProductTags {get; set;}
+    public DbSet<ContactFormEntity> Messages {get; set;}
 
 
 
@@ -59,5 +61,150 @@ public class DataContext : IdentityDbContext<UserEntity>
                     UserId = userEntity.Id,
                     RoleId = Guid.NewGuid().ToString(),
                 });
+
+                builder.Entity<ProductEntity>().HasData(
+                        new ProductEntity { ArticleNumber = "1000", ProductName = "NicePoster1", Ingress ="Very nice poster", Description="A very nice poster for your posterwall", ImageUrl = "https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+        Price = "1000",   },
+            new ProductEntity
+            {
+                ArticleNumber = "1001",
+                ProductName = "NicePoster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "",
+                Price = "200",
+                
+            },
+                
+            new ProductEntity
+            {
+                ArticleNumber = "1001",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "",
+                Price = "200",
+                
+            },
+                
+            new ProductEntity
+            {
+                ArticleNumber = "1002",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "",
+                Price = "200",
+                
+            },
+                
+            new ProductEntity
+            {
+                ArticleNumber = "1003",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "",
+                Price = "200",
+                
+            },
+                
+            new ProductEntity
+            {
+                ArticleNumber = "1004",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "",
+                Price = "200",
+                
+            },
+            new ProductEntity
+            {
+                ArticleNumber = "1005",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "",
+                Price = "200",
+                
+            },
+            new ProductEntity
+            {
+                ArticleNumber = "1006",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "",
+                Price = "200",
+                
+            },
+            new ProductEntity
+            {
+                ArticleNumber = "1007",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "",
+                Price = "200",
+                
+            },
+            new ProductEntity
+            {
+                ArticleNumber = "1008",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "https://images.pexels.com/photos/1037999/pexels-photo-1037999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                Price = "200",
+                
+            },
+            new ProductEntity
+            {
+                ArticleNumber = "1009",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "https://images.pexels.com/photos/1037999/pexels-photo-1037999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                Price = "200",
+                
+            },
+            new ProductEntity
+            {
+                ArticleNumber = "1010",
+                ProductName = "Nice Poster1",
+                Ingress = "Very nice poster",
+                Description = "Poster for your posterwall",
+                ImageUrl = "https://images.pexels.com/photos/1037999/pexels-photo-1037999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                Price = "200",
+                
+            }
+                );
+
+            
+            builder.Entity<TagEntity>().HasData(
+                new TagEntity { Id = 4, TagName = "New Posters"},
+                // new TagEntity { Id = 5, TagName = "Featured headphones"},
+                new TagEntity { Id = 5, TagName = "Popular Posters"}
+            
+            );
+
+            builder.Entity<ProductTagEntity>().HasData(
+                new ProductTagEntity { ArticleNumber = "1000", TagId = 4 },
+                new ProductTagEntity { ArticleNumber = "1001", TagId = 4 },
+                new ProductTagEntity { ArticleNumber = "1002", TagId = 4 },
+                new ProductTagEntity { ArticleNumber = "1003", TagId = 4 },
+                new ProductTagEntity { ArticleNumber = "1004", TagId = 4 },
+                new ProductTagEntity { ArticleNumber = "1005", TagId = 4 },
+
+                new ProductTagEntity { ArticleNumber = "1006", TagId = 5 },
+                new ProductTagEntity { ArticleNumber = "1007", TagId = 5 },
+                new ProductTagEntity { ArticleNumber = "1009", TagId = 5 },
+                new ProductTagEntity { ArticleNumber = "1010", TagId = 5 }
+            
+
+            );
+
+
     }
 }

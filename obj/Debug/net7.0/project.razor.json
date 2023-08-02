@@ -18645,13 +18645,33 @@
   "RootNamespace": "MvcMovie",
   "Documents": [
     {
+      "FilePath": "/Users/josefinenerlov/myproject/Views/Contact/Index.cshtml",
+      "TargetPath": "Views\\Contact\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/josefinenerlov/myproject/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/josefinenerlov/myproject/Views/ProductDetails/Index.cshtml",
+      "TargetPath": "Views\\ProductDetails\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/josefinenerlov/myproject/Views/Partials/_Showcase.cshtml",
       "TargetPath": "Views\\Partials\\_Showcase.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josefinenerlov/myproject/Views/Home/Products.cshtml",
+      "TargetPath": "Views\\Home\\Products.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josefinenerlov/myproject/Views/Partials/_ProductsByTag.cshtml",
+      "TargetPath": "Views\\Partials\\_ProductsByTag.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18680,6 +18700,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/josefinenerlov/myproject/Views/Partials/_ProductDetails.cshtml",
+      "TargetPath": "Views\\Partials\\_ProductDetails.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/josefinenerlov/myproject/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -18695,8 +18720,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/josefinenerlov/myproject/Views/Partials/_ProductItem.cshtml",
-      "TargetPath": "Views\\Partials\\_ProductItem.cshtml",
+      "FilePath": "/Users/josefinenerlov/myproject/Views/Partials/_AllProducts.cshtml",
+      "TargetPath": "Views\\Partials\\_AllProducts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/josefinenerlov/myproject/Views/Partials/_Contact.cshtml",
+      "TargetPath": "Views\\Partials\\_Contact.cshtml",
       "FileKind": "mvc"
     }
   ],

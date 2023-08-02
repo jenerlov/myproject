@@ -16,12 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/josefinenerlov/myproject
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/josefinenerlov/myproject/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josefinenerlov/myproject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/josefinenerlov/myproject/Views/Home/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josefinenerlov/myproject/Views/Partials/_AllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX0FsbFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josefinenerlov/myproject/Views/Partials/_Collection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX0NvbGxlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josefinenerlov/myproject/Views/Partials/_Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX0NvbnRhY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josefinenerlov/myproject/Views/Partials/_Footer.cshtml]
@@ -32,12 +48,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX0hlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/josefinenerlov/myproject/Views/Partials/_ProductItem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX1Byb2R1Y3RJdGVtLmNzaHRtbA==
+[/Users/josefinenerlov/myproject/Views/Partials/_ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX1Byb2R1Y3REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josefinenerlov/myproject/Views/Partials/_ProductsByTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX1Byb2R1Y3RzQnlUYWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josefinenerlov/myproject/Views/Partials/_Showcase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX1Nob3djYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josefinenerlov/myproject/Views/ProductDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdERldGFpbHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josefinenerlov/myproject/Views/Products/Index.cshtml]
