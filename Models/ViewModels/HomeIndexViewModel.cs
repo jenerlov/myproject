@@ -1,5 +1,5 @@
 
-namespace myproject.ViewModels
+namespace myproject.Models.ViewModels
 {
     public class HomeIndexViewModel
     {

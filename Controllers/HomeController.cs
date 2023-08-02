@@ -1,6 +1,5 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using myproject.ViewModels;
+﻿using Microsoft.AspNetCore.Mvc;
+using myproject.Models.ViewModels;
 
 namespace myproject.Controllers
 {

@@ -1,4 +1,8 @@
 using myproject.Services;
+using myproject.Contexts;
+using myproject.Models.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +12,19 @@ builder.Services.AddScoped<ShowcaseService>();
 
 
 // contexts
+builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("Sql")));
 // authentication
+
+builder.Services.AddIdentity<UserEntity, IdentityRole>( x =>
+{
+    x.SignIn.RequireConfirmedAccount = false;
+    x.User.RequireUniqueEmail = true;
+    x.Password.RequiredLength = 8;
+} ).AddEntityFrameworkStores<DataContext>();
+
+
 // repositories
+
 
 
 
