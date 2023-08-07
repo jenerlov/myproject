@@ -37,6 +37,22 @@
 
             }
         </div>
+                <div class="collection-grid">
+            @foreach (var product in Model.FeaturedProducts)
+            {
+                <a asp-action="Index" asp-controller="ProductDetails" asp-route-articleNumber="@product.ArticleNumber" class="collection-item">
+                    <img class="poster-image" src="@product.ImageUrl" alt="Posters">
+                    <div class="body">
+                        <div class="title"> @product.ProductName</div>
+                        <div class="info">
+                            <div class="price">@product.Price SEK</div>
+                            <i class="add-cart fa-solid fa-cart-plus"></i>
+                        </div>
+                    </div>
+                </a>
+
+            }
+        </div>
 
         
     </div>

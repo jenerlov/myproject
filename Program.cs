@@ -1,18 +1,29 @@
-using myproject.Services;
 using myproject.Contexts;
+using myproject.Helpers.Repositories;
+using myproject.Helpers.Services;
 using myproject.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// services.
-builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<ShowcaseService>();
-
-
 // contexts
 builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("Sql")));
+
+// repositories
+builder.Services.AddScoped<ProductRepo>();
+builder.Services.AddScoped<ContactRepo>();
+builder.Services.AddScoped<AddressRepo>();
+builder.Services.AddScoped<UserAddressRepo>();
+
+// services.
+builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ProductService>();
+builder.Services.AddScoped<AuthenticationService>();
+builder.Services.AddScoped<AddressService>();
+builder.Services.AddScoped<UserAdminService>();
+
+
 // authentication
 
 builder.Services.AddIdentity<UserEntity, IdentityRole>( x =>
@@ -21,11 +32,6 @@ builder.Services.AddIdentity<UserEntity, IdentityRole>( x =>
     x.User.RequireUniqueEmail = true;
     x.Password.RequiredLength = 8;
 } ).AddEntityFrameworkStores<DataContext>();
-
-
-// repositories
-
-
 
 
 var app = builder.Build();

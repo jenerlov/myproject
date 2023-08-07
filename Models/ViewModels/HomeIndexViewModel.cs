@@ -7,6 +7,7 @@ namespace myproject.Models.ViewModels
 
     public ProductsByTagViewModel ? Popular {get; set;}
     public ProductsByTagViewModel ? New {get; set;}
+    public ProductsByTagViewModel ? Featured {get; set;}
 
     }
 }

@@ -1,0 +1,54 @@
+@model RegisterViewModel
+
+<div class="container">
+    <div class="register-container">
+    <div class="col-6">
+        <form asp-action="Index" asp-controller="Registration" method="post" novalidate>
+            <div class="mb-3">
+                <label asp-for="FirstName" class="form-label"></label>
+                <input asp-for="FirstName" class="form-control" onkeyup="validateText" />
+                <small><span asp-validation-for="FirstName" class="text-danger"></span></small>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="LastName" class="form-label"></label>
+                <input asp-for="LastName" class="form-control" onkeyup="validateText" />
+                <small><span asp-validation-for="LastName" class="text-danger"></span></small>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" onkeyup="validateEmail" />
+                <small><span asp-validation-for="Email" class="text-danger"></span></small>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control" onkeyup="validatePassword" />
+                <small><span asp-validation-for="Password" class="text-danger"></span></small>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="StreetName" class="form-label"></label>
+                <input asp-for="StreetName" class="form-control" onkeyup="validateText" />
+                <small><span asp-validation-for="StreetName" class="text-danger"></span></small>
+            </div>
+            <div class="mb-3">
+                <label asp-for="PostalCode" class="form-label"></label>
+                <input asp-for="PostalCode" class="form-control" onkeyup="validateText" />
+                <small><span asp-validation-for="PostalCode" class="text-danger"></span></small>
+            </div>
+            <div class="mb-3">
+                <label asp-for="City" class="form-label"></label>
+                <input asp-for="City" class="form-control" onkeyup="validateText" />
+                <small><span asp-validation-for="City" class="text-danger"></span></small>
+            </div>
+
+            <div class="d-grid mb-5">
+                <button type="submit" class="btn btn-success mt-2">Register</button>
+            </div>
+
+        </form>
+    </div>
+    </div>
+</div>

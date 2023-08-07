@@ -9,6 +9,6 @@ namespace myproject.Models.ViewModels
 
         public IEnumerable<Product> NewProducts {get; set;} = new List<Product>();
         public IEnumerable<Product> PopularProducts {get; set;} = new List<Product>();
-        // public IEnumerable<Product> FeaturedProducts {get; set;} = new List<Product>();
+        public IEnumerable<Product> FeaturedProducts {get; set;} = new List<Product>();
     }
 }
