@@ -1,7 +1,7 @@
 using myproject.Models.Entities;
 using System.ComponentModel.DataAnnotations;
 
-namespace merketoaspnet.Models.ViewModels
+namespace myproject.Models.ViewModels
 {
     public class RegisterViewModel
     {

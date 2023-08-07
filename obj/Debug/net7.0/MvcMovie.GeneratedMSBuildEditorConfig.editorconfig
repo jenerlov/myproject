@@ -56,12 +56,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX0hlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/josefinenerlov/myproject/Views/Partials/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josefinenerlov/myproject/Views/Partials/_ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX1Byb2R1Y3REZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josefinenerlov/myproject/Views/Partials/_ProductsByTag.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX1Byb2R1Y3RzQnlUYWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josefinenerlov/myproject/Views/Partials/_Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX1JlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josefinenerlov/myproject/Views/Partials/_UserProfilePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydGlhbHMvX1VzZXJQcm9maWxlUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josefinenerlov/myproject/Views/ProductDetails/Index.cshtml]
@@ -72,8 +84,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/josefinenerlov/myproject/Views/Registration/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0cmF0aW9uL2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/josefinenerlov/myproject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/josefinenerlov/myproject/Views/User/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/josefinenerlov/myproject/Views/_ViewImports.cshtml]

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Primitives;
 
-namespace merketoaspnet.Helpers.Services;
+namespace myproject.Helpers.Services;
 
 public class UserAdminService
 {

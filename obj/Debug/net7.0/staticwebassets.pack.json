@@ -57,16 +57,44 @@
       "PackagePath": "staticwebassets/scss/components/_base.scss"
     },
     {
+      "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/components/_bestcollection.scss",
+      "PackagePath": "staticwebassets/scss/components/_bestcollection.scss"
+    },
+    {
+      "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/components/_buttons.scss",
+      "PackagePath": "staticwebassets/scss/components/_buttons.scss"
+    },
+    {
+      "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/components/_collectionitem.scss",
+      "PackagePath": "staticwebassets/scss/components/_collectionitem.scss"
+    },
+    {
+      "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/components/_contactform.scss",
+      "PackagePath": "staticwebassets/scss/components/_contactform.scss"
+    },
+    {
       "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/components/_footer.scss",
       "PackagePath": "staticwebassets/scss/components/_footer.scss"
+    },
+    {
+      "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/components/_forms.scss",
+      "PackagePath": "staticwebassets/scss/components/_forms.scss"
     },
     {
       "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/components/_header.scss",
       "PackagePath": "staticwebassets/scss/components/_header.scss"
     },
     {
+      "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/core/_colors.scss",
+      "PackagePath": "staticwebassets/scss/core/_colors.scss"
+    },
+    {
       "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/core/_fonts.scss",
       "PackagePath": "staticwebassets/scss/core/_fonts.scss"
+    },
+    {
+      "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/core/_mixins.scss",
+      "PackagePath": "staticwebassets/scss/core/_mixins.scss"
     },
     {
       "Id": "/Users/josefinenerlov/myproject/wwwroot/scss/style.scss",
